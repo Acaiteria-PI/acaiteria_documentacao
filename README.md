@@ -13,50 +13,42 @@ Frontend: https://github.com/Acaiteria-PI/front-end.git
 
 
 1. Desenvolvimento
-(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)
 
-As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
-Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 1.1 Modelos de Sistemas
+A equipe escolheu dois modelos de sistemas para desenvolver o projeto: Ponto de Vendas (PDV) e Ordem de Serviço (O.S.). Esses sistemas foram selecionados por atenderem a necessidades reais de diferentes negócios, proporcionando mais controle e eficiência na gestão.
 
-Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.
+Ponto de Vendas (PDV) e Ordem de Serviço (O.S.)
 
-1.1.1 Ponto de Vendas (PDV)
+ O sistema de autoatendimento para pedidos de açaí permitirá que os clientes realizem seus pedidos de forma autônoma por meio de um terminal ou plataforma digital. O cliente seleciona os ingredientes e complementos desejados, insere seu nome e CPF e finaliza com o pagamento. Somente após a confirmação do pagamento, o pedido será enviado automaticamente para a cozinha, onde será preparado. A equipe da cozinha terá acesso ao sistema para visualizar, gerenciar e concluir pedidos, além de poder adicionar, remover ou editar itens do cardápio. Quando o pedido estiver pronto, ele será marcado como "Concluído" e ficará registrado no histórico da loja para controle e futuras consultas. Esse sistema visa agilizar o atendimento, reduzir erros e melhorar a experiência do cliente, garantindo um processo eficiente e organizado. Após analisar o funcionamento do restaurante e os desafios enfrentados, identificamos que um sistema de autoatendimento poderia reduzir filas, agilizar pedidos, minimizar erros e aumentar a eficiência da cozinha. Além disso, o controle automatizado de estoque e o acompanhamento dos pedidos facilitariam a gestão do estabelecimento.
 
-Gerenciamento de vendas para uma padaria
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc. Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção é melhorar a gestão do negócio, é muito importante que ele consiga ter relatórios, como por exemplo, de vendas.
-
-1.1.2 Empréstimo
-
-Gerenciamento de uma biblioteca
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-1.1.3 Ordem de Serviço (O.S.)
-
-Manutenção de computadores
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
 
 2. Situação Problema
-(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)
+   
+Introdução
+O Pé de Açaí é uma pequena empresa especializada na venda de açaí e outros produtos naturais. Fundada há três anos por João Ferreira, a empresa cresceu rapidamente devido à qualidade dos seus produtos e ao atendimento personalizado. Atualmente, a loja conta com quatro funcionários: João, que administra o negócio, dois atendentes responsáveis pelo caixa e atendimento ao cliente, e um funcionário na cozinha que prepara os pedidos.
 
-Ciclo da Venda
+O estabelecimento possui um alto fluxo de clientes, especialmente nos finais de semana e horários de pico, o que pode gerar filas e aumentar o tempo de espera. Com a crescente demanda, João percebeu a necessidade de otimizar o atendimento para evitar congestionamentos e melhorar a experiência dos clientes.
 
-Descrevem o que acontece atualmente na empresa em um contexto global, abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+Situação Atual e Problema Identificado
+Atualmente, os clientes chegam ao Pé de Açaí e fazem seus pedidos diretamente no balcão, informando os ingredientes e complementos desejados para o preparo do açaí. O atendente anota o pedido manualmente, recebe o pagamento e encaminha a solicitação para a cozinha. O funcionário responsável então prepara o pedido e chama o cliente pelo nome quando está pronto.
 
-Sabendo disso, seu papel é detalhar o funcionamento da empresa escolhida na atualidade, ou seja, antes de seu novo software, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+Esse processo, embora funcional, apresenta diversas dificuldades:
 
-Pesquise sobre empresas do ramo escolhido para entender como funcionam;
-Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
-Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+Filas e demora no atendimento: Durante os horários de pico, os atendentes ficam sobrecarregados, gerando lentidão no atendimento e insatisfação dos clientes.
 
-Introdução: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
-Situação-problema: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
-Conclusão: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
-3. Descrição da proposta
+Erros na anotação dos pedidos: Como o pedido é anotado manualmente, há chances de erros na escolha dos ingredientes ou na digitação, resultando em desperdício e retrabalho.
+
+Falta de um controle eficiente do estoque: Como não há um sistema integrado, os funcionários não sabem com precisão quais ingredientes estão disponíveis, podendo ocorrer a venda de produtos em falta.
+
+Dificuldade na organização dos pedidos: Não há um método eficaz para acompanhar os pedidos em andamento, e muitas vezes clientes aguardam sem saber se seu pedido já está pronto.
+
+Conclusão e Solução Proposta
+Para solucionar esses problemas, identificamos que um sistema de autoatendimento pode trazer diversos benefícios ao Pé de Açaí. Com ele, os clientes poderão realizar seus pedidos de forma autônoma em um terminal ou plataforma digital, escolhendo os ingredientes desejados e finalizando com o pagamento. Isso reduzirá filas, minimizará erros e permitirá que a cozinha receba os pedidos automaticamente, agilizando a produção.
+
+Além disso, a cozinha poderá gerenciar o estoque em tempo real, evitando a venda de produtos indisponíveis, e acompanhar os pedidos de forma organizada. Com a conclusão do pedido, ele será registrado no histórico da loja para futuras análises.
+
+Esse sistema visa otimizar o atendimento, melhorar a experiência do cliente e tornar a gestão do negócio mais eficiente, garantindo um serviço mais rápido e preciso.
+1. Descrição da proposta
 Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará. Pense nesse texto como uma introdução ao seu cliente do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
 
 Alguns pontos importantes a se destacar são:
