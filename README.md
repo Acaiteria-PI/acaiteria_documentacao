@@ -1,12 +1,20 @@
 Pé de açai 
 
-Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari. Este projeto consiste em um sistema de autoatendimento para restaurantes, que integra a realização de pedidos dos clientes diretamente com a cozinha sistema permite que os clientes selecionem seus pedidos por meio de um terminal de autoatendimento, sendo identificados por nome e CPF. O pedido só é enviado para a cozinha após a confirmação do pagamento, garantindo que o preparo comece somente após a transação ser concluída. A cozinha tem a responsabilidade de gerenciar o estoque e de dar o comando de "pedido finalizado" quando o prato estiver pronto para ser servido. Além disso, o sistema mantém um histórico dos pedidos anteriores do cliente, facilitando futuras compras e o controle de pedidos realizados. O objetivo é otimizar a experiência do cliente e aumentar a eficiência no atendimento.
+Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
+
+  Este projeto consiste em um sistema de autoatendimento para restaurantes, que integra a realização de pedidos dos clientes diretamente com a cozinha sistema permite que os clientes selecionem seus pedidos por meio de um terminal de autoatendimento, sendo identificados por nome e CPF. O pedido só é enviado para a cozinha após a confirmação do pagamento, garantindo que o preparo comece somente após a transação ser concluída. A cozinha tem a responsabilidade de gerenciar o estoque e de dar o comando de "pedido finalizado" quando o prato estiver pronto para ser servido. Além disso, o sistema mantém um histórico dos pedidos anteriores do cliente, facilitando futuras compras e o controle de pedidos realizados. O objetivo é otimizar a experiência do cliente e aumentar a eficiência no atendimento.
+
+IMPORTANTE: link do projeto
+
+Professor: Marco André Lopes Mendes
+
 
 Equipe:
 - Maria Helena de Oliveira Lotin (https://github.com/lotinmaria)
 - João Vitor da Silva Sousa (https://github.com/Jaotarzan)
 - Manoel Francisco de Jesus (https://github.com/ManoelFranciscoDias) 
 
+Links do Projeto:
 
 Backend: https://github.com/Acaiteria-PI/back-end.git
 Frontend: https://github.com/Acaiteria-PI/front-end.git
@@ -14,15 +22,12 @@ Frontend: https://github.com/Acaiteria-PI/front-end.git
 
 1. Desenvolvimento
 
-1.1 Modelos de Sistemas
-A equipe escolheu dois modelos de sistemas para desenvolver o projeto: Ponto de Vendas (PDV) e Ordem de Serviço (O.S.). Esses sistemas foram selecionados por atenderem a necessidades reais de diferentes negócios, proporcionando mais controle e eficiência na gestão.
-
 Ponto de Vendas (PDV) e Ordem de Serviço (O.S.)
 
  O sistema de autoatendimento para pedidos de açaí permitirá que os clientes realizem seus pedidos de forma autônoma por meio de um terminal ou plataforma digital. O cliente seleciona os ingredientes e complementos desejados, insere seu nome e CPF e finaliza com o pagamento. Somente após a confirmação do pagamento, o pedido será enviado automaticamente para a cozinha, onde será preparado. A equipe da cozinha terá acesso ao sistema para visualizar, gerenciar e concluir pedidos, além de poder adicionar, remover ou editar itens do cardápio. Quando o pedido estiver pronto, ele será marcado como "Concluído" e ficará registrado no histórico da loja para controle e futuras consultas. Esse sistema visa agilizar o atendimento, reduzir erros e melhorar a experiência do cliente, garantindo um processo eficiente e organizado. Após analisar o funcionamento do restaurante e os desafios enfrentados, identificamos que um sistema de autoatendimento poderia reduzir filas, agilizar pedidos, minimizar erros e aumentar a eficiência da cozinha. Além disso, o controle automatizado de estoque e o acompanhamento dos pedidos facilitariam a gestão do estabelecimento.
 
 
-2. Situação Problema
+1. Situação Problema
    
 Introdução
 O Pé de Açaí é uma pequena empresa especializada na venda de açaí e outros produtos naturais. Fundada há três anos por João Ferreira, a empresa cresceu rapidamente devido à qualidade dos seus produtos e ao atendimento personalizado. Atualmente, a loja conta com quatro funcionários: João, que administra o negócio, dois atendentes responsáveis pelo caixa e atendimento ao cliente, e um funcionário na cozinha que prepara os pedidos.
@@ -48,7 +53,9 @@ Para solucionar esses problemas, identificamos que um sistema de autoatendimento
 Além disso, a cozinha poderá gerenciar o estoque em tempo real, evitando a venda de produtos indisponíveis, e acompanhar os pedidos de forma organizada. Com a conclusão do pedido, ele será registrado no histórico da loja para futuras análises.
 
 Esse sistema visa otimizar o atendimento, melhorar a experiência do cliente e tornar a gestão do negócio mais eficiente, garantindo um serviço mais rápido e preciso.
-1. Descrição da proposta
+   
+   
+   Descrição da proposta
 Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará. Pense nesse texto como uma introdução ao seu cliente do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
 
 Alguns pontos importantes a se destacar são:
@@ -59,7 +66,7 @@ O que poderá ser feito no software.Apenas o principal, sem pensar em telas ou d
 Se houver mais de um nível de usuário, ressaltar as diferenças entre eles na descrição da proposta.
 Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
 
-4. Modelagem de Dados
+1. Modelagem de Dados
 (Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)
 
 Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
