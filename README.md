@@ -71,8 +71,8 @@ Além disso, o sistema armazenará um **histórico de pedidos**, permitindo que 
 Com essa solução, o **Pé de Açaí** terá um atendimento mais rápido e organizado, um estoque bem gerenciado e um controle eficiente das operações, resultando em uma melhor experiência para os clientes e maior eficiência para o negócio.
 
 # 4 Modelagem de Dados
-![modelagem](![MER](https://github.com/user-attachments/assets/2ba21c22-dba1-4f4c-a8a6-7b5f42b9beba)
-)
+![modelagem] ![MER](https://github.com/user-attachments/assets/790f3991-4c37-4540-a0cd-cb2732f58b00)
+
 )
 
 # 4. Regras de negócio
