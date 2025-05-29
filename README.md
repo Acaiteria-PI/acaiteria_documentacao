@@ -71,5 +71,86 @@ Além disso, o sistema armazenará um **histórico de pedidos**, permitindo que 
 Com essa solução, o **Pé de Açaí** terá um atendimento mais rápido e organizado, um estoque bem gerenciado e um controle eficiente das operações, resultando em uma melhor experiência para os clientes e maior eficiência para o negócio.
 
 # 4 Modelagem de Dados
-![modelagem](./imagens/WhatsApp%20Image%202025-04-04%20at%2008.07.58.jpeg)
+![modelagem](./imagens/Imagem%20do%20WhatsApp%20de%202025-05-09%20à(s)%2016.16.40_778050db.jpg)
+
+# 4. Regras de negócio
+
+RN01 - Cadastro de produtos: Todo produto (açaí, complementos, embalagens) deve ser cadastrado com informações como nome, categoria, preço, unidade de medida e quantidade em estoque.
+
+RN 02 - Atualização de estoque: Ao realizar uma venda ou registrar uma entrada de mercadoria, o sistema deve atualizar automaticamente o estoque correspondente.
+
+RN 03 - Alerta de estoque mínimo: Quando a quantidade de um produto atingir o nível mínimo definido, o sistema deve gerar um alerta para reposição.
+
+RN04 - Cadastro de cliente: Clientes podem ser cadastrados com informações como nome, telefone, e-mail e histórico de compras para facilitar futuras interações e promoções.
+
+RN 05 - Registro de pedidos: Todos os pedidos devem ser registrados com detalhes do cliente, itens solicitados, quantidades, preços e forma de pagamento.
+
+RN 06 - Integração com o caixa: Os pedidos finalizados devem ser automaticamente enviados para o módulo de caixa para processamento do pagamento.
+
+RN 07 - Emissão de comprovante: Após o pagamento, o sistema deve emitir um comprovante detalhado da transação para o cliente
+
+RN08 - Relatório gerenciais: O sistema deve gerar relatórios periódicos sobre vendas, estoque, fluxo de caixa e desempenho de produtos.
+
+# 5. Requisitos funcionais
+
+REQUISITOS FUNCIONAIS:	
+
+R.F 01 - Cadastro de produtos: Permitir o cadastro de novos produtos com informações detalhadas.
+- dados necessários: Nome, categoria, preço, unidade de medida, quantidade inicial.
+- usuários: administrador e gerente.
+
+R.F 02 - Cadastro de clientes: Permitir o cadastro de clientes para facilitar futuras vendas e  promoções.
+- dados necessários: Nome, telefone, e-mail, data de nascimento.
+- usuários: Atendente, Gerente.
+	
+R.F.03  –  Registro de Pedidos : Registrar pedidos realizados pelos clientes, associando-os aos  produtos e clientes correspondentes.
+ - Dados Necessários: ID do cliente, lista de produtos, quantidades, forma de pagamento.
+ - Usuários: Atendente
+
+R.F 04 - Atualização automática de estoque: Reduzir automaticamente a quantidade em estoque dos produtos vendidos.
+
+- Dados necessários: ID do produto, quantidade vendida.
+- Usuários: Sistema (processo automático).
+
+R.F 05 - Geração de relatórios: Gerar relatórios sobre vendas, estoque e desempenho de produtos.
+
+- Dados necessários:  Período de análise, categorias de produtos, dados de vendas.
+- usuários: Administrador, Gerente.
+
+R.F F06 - Emissão de comprovante de venda: Emitir comprovantes detalhados das vendas    realizadas para os clientes.
+					
+- dados necessários: Detalhes do pedido, valores, forma de pagamento.
+- usuários: Atendente, Cliente.
+
+R.F 07 - Alerta de estoque mínimo: Notificar os responsáveis quando o estoque de um produto atingir o nível mínimo.
+
+- Dados necessários: ID do produto, quantidade atual, quantidade mínima definida.
+- Usuários: Administrador, Gerente.
+
+
+# 6. Requisitos não funcionais
+
+R.N.F. 01 - Banco de dados: O sistema será implementado com o banco de dados MySQL.
+
+R.N.F. 02 - Navegador homologado: O sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
+
+R.N.F. 03 - Implementação: O sistema deverá ser desenvolvido com linguagem Python, Javascript, e o framework vuejs
+
+R.N.F. 04 - Ambiente de Desenvolvimento Integrado (IDE): Para criação do sistema, será utilizado o editor de texto Visual Studio Code.
+
+R.N.F05 - Segurança: Implementar autenticação de usuários e controle de acesso baseado em permissões para proteger dados sensíveis.
+
+R.N.F06 - Portabilidade: O sistema deve ser compatível com os principais navegadores e dispositivos, incluindo desktops, tablets e smartphones.
+
+
+SISTEMA DE ORDEM DE SERVIÇO:
+
+R.N.F. 01 - Navegadores homologados: o sistema deverá ser homologado para os navegadores Google Chrome e Mozilla Firefox.
+
+R.N.F. 02 - Tecnologia Front-end: Para a exibição em front-end, o software utilizará o framework VueJS
+
+R.N.F. 03- Tecnologia Back-end: O software será desenvolvido pela linguagem de programação Python, com o framework Django e a API REST com Django REST Framework.
+
+R.N.F. 04 - Interoperabilidade: O banco de dados será o MySQL, com a linguagem SQL de banco, sendo todo produzido através do MySQL Workbench .
+
 
