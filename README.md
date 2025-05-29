@@ -73,8 +73,6 @@ Com essa solução, o **Pé de Açaí** terá um atendimento mais rápido e orga
 # 4 Modelagem de Dados
 ![modelagem] ![MER](https://github.com/user-attachments/assets/790f3991-4c37-4540-a0cd-cb2732f58b00)
 
-)
-
 # 4. Regras de negócio
 
 RN01 - Cadastro de produtos: Todo produto (açaí, complementos, embalagens) deve ser cadastrado com informações como nome, categoria, preço, unidade de medida e quantidade em estoque.
